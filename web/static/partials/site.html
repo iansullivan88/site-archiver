@@ -1,0 +1,15 @@
+<section>
+  <h2>{{site.name}}</h2>
+
+  <h3>Jobs</h3>
+
+  <ul class="unstyled">
+    <li ng-repeat="job in jobs">
+      <a href="{{getJobStartUrl(job.id, site.startUrl)}}" target="_blank">{{formatTimestamp(job.time)}}</a>
+    </li>
+  </ul>
+
+  <input ng-disabled="!site || runningJob" type="submit" class="button archive" ng-click="startJob(site.id)" value="Archive Site" />
+  <img ng-show="runningJob" class="loading-spinner" alt="loading" src="images/loading.png" />
+
+</section>

@@ -1,0 +1,8 @@
+.cabal-sandbox
+dist
+public
+*.sqlite3
+*.sqlite3-journal
+web/node_modules
+web/bower_components
+cabal.sandbox.config

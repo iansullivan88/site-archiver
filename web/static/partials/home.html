@@ -1,0 +1,17 @@
+<section>
+  <ul class="unstyled">
+    <li ng-repeat="site in sites">
+      <a href=/#/site/{{site.id}}>{{site.name}}</a>
+    </li>
+  </ul>
+
+  <form name="newSiteForm">
+    <fieldset>
+      <input type="text" ng-model="newSite.name" placeholder="Site Name" required />
+      <input type="text" ng-model="newSite.startUrl" placeholder="Start Url" required />
+      <input type="submit" class="button" ng-click="createNewSite(newSite)" value="Add New Site" />
+    </fieldset>
+  </form>
+
+
+</section>

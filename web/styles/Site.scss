@@ -1,0 +1,27 @@
+@import "settings";
+@import "foundation";
+
+body {
+  padding: 1em;
+}
+
+ul.unstyled, ol.unstyled {
+  margin: 0;
+  list-style: none;
+}
+
+.button.archive {
+  margin-top: 1em;
+}
+
+@keyframes rotation {
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+}
+
+.loading-spinner {
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

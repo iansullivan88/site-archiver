@@ -1,0 +1,10 @@
+{
+  "name": "SiteArchiver",
+  "private": true,
+  "devDependencies": {
+    "angular": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "angular-resource": "~1.4.5",
+    "foundation": "~5.5.2"
+  }
+}

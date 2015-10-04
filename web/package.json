@@ -1,0 +1,15 @@
+{
+  "name": "SiteArchiver",
+  "version": "0.0.1",
+  "description": "Archives sites",
+  "author": "Ian Sullivan",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-concat": "~2.5.2",
+    "gulp-install": "~0.4.0",
+    "gulp-sass": "~1.3.3",
+    "gulp-sourcemaps": "~1.5.1",
+    "gulp-merge": "~0.1.0"
+  }
+}
